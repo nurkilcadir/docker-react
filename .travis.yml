@@ -9,7 +9,6 @@ script:
 deploy:
  provider: elasticbeanstalk
  edge: true
-
  region: "ua-east-1"
  app: "docker"
  env: "Docker-env"
